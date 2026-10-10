@@ -4,6 +4,11 @@ PharOS is a Manhattan street-safety workspace built with React, TypeScript, MapL
 
 **Hosted app:** [Open PharOS](https://team-12-app.thecosmoslabs.com/app/).
 
+## Origin and credits
+This is a fork of [Divyesh-Thirukonda/pharos](https://github.com/Divyesh-Thirukonda/pharos), the app our team built and presented at the Real-Time Video Agents Hack (NYC, Oct 9 2026). Team: Divyesh Thirukonda, Elmir Abdullaiev, Viktor Radev and Pranav Palle. We did not place. The full history and the original authorship are kept; the upstream repository is the reference version.
+
+Elmir Abdullaiev's contributions: the shared color scale for the heat layer, dots and legend (`src/CityMap.tsx`, `src/styles.css`); the measured near-miss candidates, `backend/nearmiss.py` with its tests and the panel in `src/LiveObserver.tsx` (a port of his detector from [elmir132/pharos-elmir](https://github.com/elmir132/pharos-elmir), which also holds his parallel map build, review queue and design notes); `start.sh`; and the matching documentation fixes. Near-miss distances are approximate (no camera calibration) and their accuracy was never measured.
+
 ## Run locally
 
 Use Node.js 22.12+ and Python 3.10+. From the repository root:
