@@ -2,7 +2,11 @@
 
 PharOS is a Manhattan street-safety workspace built with React, TypeScript, MapLibre, and FastAPI. A 3D map and a right sidebar bring crash history, street cameras, and actual-video review together. The selected demo focus is Sixth Avenue and West 23rd Street. Its identity combines an emerald headdress, protective eye, and lighthouse with gold beams.
 
-**Hosted app:** [Open PharOS](https://team-12-app.thecosmoslabs.com/app/).
+![PharOS: the Manhattan crash-history map, one intersection's camera and history, then a live street-video capture with the measured near-miss panel](docs/demo.gif)
+
+*Recorded on Oct 9 2026 from the app deployed at the hackathon, sped up three times. In this capture the near-miss panel reports no candidate, which is the usual result for a short window.*
+
+**Hosted app:** [Open PharOS](https://team-12-app.thecosmoslabs.com/app/). It ran on the hackathon's workshop servers and may no longer be available.
 
 ## Origin and credits
 This is a fork of [Divyesh-Thirukonda/pharos](https://github.com/Divyesh-Thirukonda/pharos), the app our team built and presented at the Real-Time Video Agents Hack (NYC, Oct 9 2026). Team: Divyesh Thirukonda, Elmir Abdullaiev, Viktor Radev and Pranav Palle. We did not place. The full history and the original authorship are kept; the upstream repository is the reference version.
